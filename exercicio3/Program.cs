@@ -1,11 +1,4 @@
-﻿/**
-* PUC Minas, Campus Barreiro
-* POO aula prática
-* Data: 08/08/2025(Sexta-feira)
-* @author [Bruno César Lima Araújo]
-*Objetivo: Aul prática de nivelamento e revisão dos conteúdos aprendidos em ATP
-*/
-using System;
+﻿using System;
 
 class Program
 {
@@ -15,24 +8,23 @@ class Program
         double media = 0;
         do
         {
-            Console.WriteLine("Digite um número positivo");
+            Console.WriteLine("Digite um número positivo. Para finalizar, digite um número negativo");
             num = int.Parse(Console.ReadLine());
-            if(num >= 0)
-                soma += num;
-            if (num > maior)
+            if (num >= 0)
+                soma = NivelamentoHelper.Somar(soma, num);
+            if (NivelamentoHelper.Maior(num, maior))
                 maior = num;
-            if (num < menor && num >= 0)
+            if (NivelamentoHelper.Menor(num, menor))
                 menor = num;
-            contador++;
+            contador = NivelamentoHelper.Contador(num, contador);
         }
         while (num >= 0);
-        contador--; //como as instruções do loop são executadas antes da verificação, retrocedemos contador em 1 para corresponder ao número de valores válidos
         if (contador == 0 && num < 0)
         {
             Console.WriteLine("Não é possível calcular a média. Insira pelo menos um número positivo");
             return;
         }
-        media = (double)soma / contador;
+        media = NivelamentoHelper.Media(soma, contador);
         Console.WriteLine($"Contador de valores válidos: {contador}");
         Console.WriteLine($"Soma dos números inseridos: {soma}");
         Console.WriteLine($"Média dos números inseridos: {media}");
