@@ -1,9 +1,9 @@
 ﻿using System;
 using AED; //importa as estruturas de dados necessárias para o funcionamento do programa
 
-class Program
+class Ex4
 {
-    static void Main(string[] args)
+    public static void Rodar()
     {
         //dicionário para armazenar os números digitados pelo usuário
         var sequencias = new CDicionario<int, CLista<int>>();
