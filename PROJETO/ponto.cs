@@ -1,23 +1,11 @@
-/**
-* PUC Minas, Campus Barreiro.
-* POO Aula Prática 
-* Data: 22/08/2025 (Sexta-feira)
-* @author [Bruno César Lima Araújo]
-* Objetivo: Introdução a criação de classes em dotnet
-*/
-
+using System;
 class Ponto
 {
     private double x;
     private double y;
     private string descricao;
 
-    public Ponto() {}
-
-    public Ponto(double x)
-    {
-        this.x = x;
-    }
+    public Ponto() { } //construtor vazio
 
     public Ponto(double x, double y)
     {
@@ -67,5 +55,10 @@ class Ponto
     {
         x = 0;
         y = 0;
+    }
+
+    public string toString()
+    {
+        return $"{x} {y} {descricao}";
     }
 }
