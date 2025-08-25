@@ -31,6 +31,7 @@ class Program
         CLista<Ponto> pontos = new CLista<Ponto>();
         do
         {
+            descricao = ""; //devido a um bug de descrições sendo adicionadas indevidamente, esta variável precisa ser limpa ao entrar no loop
             Console.WriteLine("Informe as coordenadas x e y. Descrição é opcional. Digite todos os dados em uma única linha separados por espaço");
             string[] entrada = Console.ReadLine().Split(' ');
             x = double.Parse(entrada[0]);
@@ -38,10 +39,12 @@ class Program
             if (entrada.Length >= 3)
                 descricao = entrada[2];
             if (x >= 0 && y >= 0)
+            {
                 p = new Ponto(x, y, descricao);
-            Console.WriteLine("Coordenadas:");
-            p.ImprimirCoordenadas();
-            pontos.InsereFim(p);
+                Console.WriteLine("Coordenadas:");
+                p.ImprimirCoordenadas();
+                pontos.InsereFim(p);
+            }
         }
         while (x >= 0 && y >= 0);
         Console.WriteLine($"Total de itens instanciados: {pontos.Quantidade()}");
