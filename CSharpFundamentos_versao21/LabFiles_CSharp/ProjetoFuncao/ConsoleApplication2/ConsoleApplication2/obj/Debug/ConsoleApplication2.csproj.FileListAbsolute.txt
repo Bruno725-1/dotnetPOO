@@ -1,0 +1,5 @@
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\ConsoleApplication2\ConsoleApplication2\obj\Debug\ResolveAssemblyReference.cache
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

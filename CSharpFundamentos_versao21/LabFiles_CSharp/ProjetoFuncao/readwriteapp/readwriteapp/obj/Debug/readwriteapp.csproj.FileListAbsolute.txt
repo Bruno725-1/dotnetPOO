@@ -1,0 +1,5 @@
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\readwriteapp\readwriteapp\obj\Debug\ResolveAssemblyReference.cache
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\readwriteapp\readwriteapp\bin\Debug\readwriteapp.exe
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\readwriteapp\readwriteapp\bin\Debug\readwriteapp.pdb
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\readwriteapp\readwriteapp\obj\Debug\readwriteapp.exe
+G:\PUC2\2010-1\ATP\publicado\pratica\LabFiles_CSharp\ProjetoFuncao\readwriteapp\readwriteapp\obj\Debug\readwriteapp.pdb
