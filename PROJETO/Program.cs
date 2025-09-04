@@ -22,7 +22,7 @@ class Program
         p3.ZerarCoordenadas();
         p3.ImprimirCoordenadas();
         p3.SetDescricao("Centro");
-        string estringue = p3.toString();
+        string estringue = p3.ToString();
         Console.WriteLine(estringue);*/
         //Implementação de código que permitirá o usuário criar quantos objetos quizer
         double x, y;
@@ -51,7 +51,7 @@ class Program
         for (int i = 1; i <= pontos.Quantidade(); i++)
         {
             Ponto p1 = pontos.RetornaIndice(i);
-            Console.WriteLine(p1.toString());
+            Console.WriteLine(p1.ToString());
         }
     }
 }

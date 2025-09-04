@@ -57,7 +57,7 @@ class Ponto
         y = 0;
     }
 
-    public string toString()
+    public override string ToString()
     {
         return $"{x} {y} {descricao}";
     }
