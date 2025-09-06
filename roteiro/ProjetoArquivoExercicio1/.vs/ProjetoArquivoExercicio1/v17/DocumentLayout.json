@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projetos\\02_ACADEMICO\\00_BibDigital\\ToTrain\\mlink\\fontes\\csharp\\CSharp_POO_Intermediario\\Mod_IO\\exemplos\\csharp\\ProjetoArquivoExercicio1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C84F5C64-69E0-49A2-9475-0E6F36CD9EE0}|ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1.csproj|c:\\projetos\\02_academico\\00_bibdigital\\totrain\\mlink\\fontes\\csharp\\csharp_poo_intermediario\\mod_io\\exemplos\\csharp\\projetoarquivoexercicio1\\projetoarquivoexercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C84F5C64-69E0-49A2-9475-0E6F36CD9EE0}|ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1.csproj|solutionrelative:projetoarquivoexercicio1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projetos\\02_ACADEMICO\\00_BibDigital\\ToTrain\\mlink\\fontes\\csharp\\CSharp_POO_Intermediario\\Mod_IO\\exemplos\\csharp\\ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1\\Program.cs",
+              "RelativeDocumentMoniker": "ProjetoArquivoExercicio1\\Program.cs",
+              "ToolTip": "C:\\projetos\\02_ACADEMICO\\00_BibDigital\\ToTrain\\mlink\\fontes\\csharp\\CSharp_POO_Intermediario\\Mod_IO\\exemplos\\csharp\\ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1\\Program.cs",
+              "RelativeToolTip": "ProjetoArquivoExercicio1\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:47:34.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
