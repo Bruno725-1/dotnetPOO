@@ -1,57 +1,61 @@
 ﻿using System;
-using AED;
 
 class Program
 {
     public static void Main(string[] args)
     {
-        /*Ponto p1 = new Ponto();
-        p1.ImprimirCoordenadas();
-        p1.IncrementarCoordenadas(5, 2);
-        p1.ImprimirCoordenadas();
-        p1.IncrementarCoordenadas(4, 5);
-        p1.ImprimirCoordenadas();
-        p1.ZerarCoordenadas();
-        p1.ImprimirCoordenadas();
-        Ponto p3 = new Ponto(2, 6);
-        p3.ImprimirCoordenadas();
-        p3.IncrementarCoordenadas(6, 9);
-        p3.ImprimirCoordenadas();
-        p3.IncrementarCoordenadas(5, 2);
-        p3.ImprimirCoordenadas();
-        p3.ZerarCoordenadas();
-        p3.ImprimirCoordenadas();
-        p3.SetDescricao("Centro");
-        string estringue = p3.ToString();
-        Console.WriteLine(estringue);*/
-        //Implementação de código que permitirá o usuário criar quantos objetos quizer
-        double x, y;
-        string descricao = "";
-        Ponto p = null;
-        CLista<Ponto> pontos = new CLista<Ponto>();
+        Conjunto c1 = new Conjunto(1, "Primeiro");
+        int opcao;
         do
         {
-            descricao = ""; //devido a um bug de descrições sendo adicionadas indevidamente, esta variável precisa ser limpa ao entrar no loop
-            Console.WriteLine("Informe as coordenadas x e y. Descrição é opcional. Digite todos os dados em uma única linha separados por espaço");
-            string[] entrada = Console.ReadLine().Split(' ');
-            x = double.Parse(entrada[0]);
-            y = double.Parse(entrada[1]);
-            if (entrada.Length >= 3)
-                descricao = entrada[2];
-            if (x >= 0 && y >= 0)
+            Console.WriteLine("Escolha uma das opções:");
+            Console.WriteLine("1: Adicionar ponto.");
+            Console.WriteLine("2: Excluir ponto.");
+            Console.WriteLine("3: Listar pontos");
+            Console.WriteLine("4: Mostrar quantidade de pontos no conjunto.");
+            Console.WriteLine("5: Sair.");
+            Console.Write("Opção: ");
+            opcao = int.Parse(Console.ReadLine());
+            switch (opcao)
             {
-                p = new Ponto(x, y, descricao);
-                Console.WriteLine("Coordenadas:");
-                p.ImprimirCoordenadas();
-                pontos.InsereFim(p);
+                case 1:
+                    Console.WriteLine("Informe as coordenadas, descrição é opcional. Digite todas as informações em uma linha separadas por espaços");
+                    string[] informacoes = Console.ReadLine().Split(' ');
+                    double x = double.Parse(informacoes[0] ?? "0");
+                    double y = double.Parse(informacoes[1] ?? "0");
+                    string descricao = informacoes[2];
+                    Ponto p1 = new Ponto(x, y, descricao);
+                    c1.AdicionarPonto(p1);
+                    Console.WriteLine("Ponto adicionado com sucesso!");
+                    break;
+
+                case 2:
+                    Console.WriteLine("Informe as coordenadas, descrição é opcional. Digite todas as informações em uma linha separadas por espaços");
+                    string[] informacoes2 = Console.ReadLine().Split(' ');
+                    double x2 = double.Parse(informacoes2[0] ?? "0");
+                    double y2 = double.Parse(informacoes2[1] ?? "0");
+                    string descricao2 = informacoes2[2];
+                    Ponto p2 = new Ponto(x2, y2, descricao2);
+                    c1.ExcluirPonto(p2);
+                    break;
+
+                case 3:
+                    c1.ListarPontos();
+                    break;
+
+                case 4:
+                    Console.WriteLine($"Quantidade de pontos no conjunto: {c1.ContarPontos}");
+                    break;
+
+                case 5:
+                    Console.WriteLine("Saindo...");
+                    break;
+
+                default:
+                    Console.WriteLine("Opção inválida. Digite uma das opções acima.");
+                    break;
             }
         }
-        while (x >= 0 && y >= 0);
-        Console.WriteLine($"Total de itens instanciados: {pontos.Quantidade()}");
-        for (int i = 1; i <= pontos.Quantidade(); i++)
-        {
-            Ponto p1 = pontos.RetornaIndice(i);
-            Console.WriteLine(p1.ToString());
-        }
+        while (opcao != 5);
     }
 }

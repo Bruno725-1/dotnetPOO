@@ -61,4 +61,17 @@ class Ponto
     {
         return $"{x} {y} {descricao}";
     }
+
+    public override bool Equals(object? obj) => Equals(obj as Ponto);
+
+    public bool Equals(Ponto p)
+    {
+        if (p is null) return false;
+        return (this.x == p.x) && (this.y == p.y) && (this.descricao == p.descricao);
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(x, y, descricao);
+    }
 }
