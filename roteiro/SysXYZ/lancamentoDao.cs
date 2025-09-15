@@ -35,7 +35,7 @@ class LancamentoDao
         {
             CListaVet<LancamentoVo> lista = new CListaVet<LancamentoVo>(Lancamentos.Quantidade);
             for (int i = 0; i < Lancamentos.Quantidade; i++)
-                lista[i] = Lancamentos[i];
+                lista.Adiciona (Lancamentos[i]);
 
             return lista;
         }

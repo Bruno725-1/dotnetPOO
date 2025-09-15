@@ -17,5 +17,8 @@ class Program
         }
         leitor.Close();
         ld.CarregarNovoArquivo();
+        CListaVet<LancamentoVo> lista = ld.ObterTodos;
+        for (int i = 0; i < 5; i++)
+            Console.WriteLine(lista[i]);
     }
 }
