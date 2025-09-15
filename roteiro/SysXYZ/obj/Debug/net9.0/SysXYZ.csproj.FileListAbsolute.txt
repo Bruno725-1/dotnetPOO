@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\bin\Debug\net9.0\SysXYZ.exe
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\bin\Debug\net9.0\SysXYZ.deps.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\bin\Debug\net9.0\SysXYZ.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\bin\Debug\net9.0\SysXYZ.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\bin\Debug\net9.0\SysXYZ.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.sourcelink.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\refint\SysXYZ.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\SysXYZ.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\SysXYZ\obj\Debug\net9.0\ref\SysXYZ.dll

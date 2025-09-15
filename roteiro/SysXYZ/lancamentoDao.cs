@@ -1,10 +1,5 @@
-/**
-* PUC Minas, Campus Barreiro.
-* POO Aula Prática 
-* Data: 12/09/2025 (Sexta´feira)
-* @author Bruno César Lima Araújo
-* Objetivo: Continuação do RP4, o qual tem o objetivo de ver conceitos como manipulação de arquivos e persistência de objetos
-*/
+using System.IO;
+using System.Text;
 class LancamentoDao
 {
     private CListaVet<LancamentoVo> Lancamentos;
@@ -44,5 +39,13 @@ class LancamentoDao
 
             return lista;
         }
+    }
+
+    public void CarregarNovoArquivo()
+    {
+        StreamWriter escritor = new StreamWriter("registro.txt", true, Encoding.UTF8);
+        for (int i = 0; i < Lancamentos.Quantidade; i++)
+            escritor.WriteLine(Lancamentos[i]);
+        escritor.Close();
     }
 }
