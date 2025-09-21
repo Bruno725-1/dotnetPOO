@@ -1,42 +1,41 @@
 using System;
-class Ponto
+class PontoVO
 {
     private double x;
     private double y;
     private string descricao;
 
-    public Ponto() { } //construtor vazio
+    public PontoVO() { } //construtor vazio
 
-    public Ponto(double x, double y)
+    public PontoVO(double x, double y)
     {
         this.x = x;
         this.y = y;
     }
 
-    public Ponto(double x, double y, string descricao)
+    public PontoVO(double x, double y, string descricao)
     {
         this.x = x;
         this.y = y;
         this.descricao = descricao;
     }
 
-    public double GetX() => x;
-    public double GetY() => y;
-    public string GetDescricao() => descricao;
-
-    public void SetX(double valor)
+    public double X
     {
-        x = valor;
+        get => x;
+        set => x = value;
     }
 
-    public void SetY(double valor)
+    public double Y
     {
-        y = valor;
+        get => y;
+        set => y = value;
     }
 
-    public void SetDescricao(string valor)
+    public string Descricao
     {
-        descricao = valor;
+        get => descricao;
+        set => descricao = value;
     }
 
     public void IncrementarCoordenadas(double deltaX, double deltaY)
@@ -62,9 +61,9 @@ class Ponto
         return $"{x} {y} {descricao}";
     }
 
-    public override bool Equals(object? obj) => Equals(obj as Ponto);
+    public override bool Equals(object? obj) => Equals(obj as PontoVO);
 
-    public bool Equals(Ponto p)
+    public bool Equals(PontoVO p)
     {
         if (p is null) return false;
         return (this.x == p.x) && (this.y == p.y) && (this.descricao == p.descricao);

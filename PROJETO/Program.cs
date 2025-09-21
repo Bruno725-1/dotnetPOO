@@ -4,7 +4,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Conjunto c1 = new Conjunto(1, "Primeiro");
+        ConjuntoVO c1 = new ConjuntoVO(1, "Primeiro");
         int opcao;
         do
         {
@@ -23,8 +23,12 @@ class Program
                     string[] informacoes = Console.ReadLine().Split(' ');
                     double x = double.Parse(informacoes[0] ?? "0");
                     double y = double.Parse(informacoes[1] ?? "0");
-                    string descricao = informacoes[2];
-                    Ponto p1 = new Ponto(x, y, descricao);
+                    string descricao = "";
+                    if (informacoes.Length == 3)
+                    {
+                        descricao = informacoes[2];
+                    }
+                    PontoVO p1 = new PontoVO(x, y, descricao);
                     c1.AdicionarPonto(p1);
                     Console.WriteLine("Ponto adicionado com sucesso!");
                     break;
@@ -35,7 +39,7 @@ class Program
                     double x2 = double.Parse(informacoes2[0] ?? "0");
                     double y2 = double.Parse(informacoes2[1] ?? "0");
                     string descricao2 = informacoes2[2];
-                    Ponto p2 = new Ponto(x2, y2, descricao2);
+                    PontoVO p2 = new PontoVO(x2, y2, descricao2);
                     c1.ExcluirPonto(p2);
                     break;
 

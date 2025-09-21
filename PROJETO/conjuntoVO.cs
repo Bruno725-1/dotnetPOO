@@ -1,15 +1,15 @@
 using System;
-class Conjunto
+class ConjuntoVO
 {
     private int codigo;
     private string descricao;
-    private CListaVet<Ponto> Pontos;
+    private CListaVet<PontoVO> Pontos;
 
-    public Conjunto(int codigo, string descricao)
+    public ConjuntoVO(int codigo, string descricao)
     {
         this.codigo = codigo;
         this.descricao = descricao;
-        Pontos = new CListaVet<Ponto>();
+        Pontos = new CListaVet<PontoVO>();
     }
 
     public override string ToString()
@@ -39,9 +39,9 @@ class Conjunto
 
     public int ContarPontos => Pontos.Quantidade;
 
-    public void AdicionarPonto(Ponto p) => Pontos.Adiciona(p);
+    public void AdicionarPonto(PontoVO p) => Pontos.Adiciona(p);
 
-    public void ExcluirPonto(Ponto p)
+    public void ExcluirPonto(PontoVO p)
     {
         if (!Pontos.Contem(p))
         {
@@ -49,7 +49,7 @@ class Conjunto
             return;
         }
         Pontos.Remove(p);
-        if (Pontos.Capacidade >= Pontos.Quantidade * 3)
+        if ((double)Pontos.Capacidade >= (double)Pontos.Quantidade * 2.5)
             Pontos.CortarExcessos();
     }
 
