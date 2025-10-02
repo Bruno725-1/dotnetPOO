@@ -4,11 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Circulo obj1 = new Circulo(1, "c1", 2);
-            obj1.imprimirDados();
-
-            Circulo obj2 = new Circulo(2, "c2", 4);
-            obj2.imprimirDados();
+            Quadrado q1 = new Quadrado();
+            double areaq1 = q1.calcularArea();
+            Console.WriteLine($"Área do quadrado 1: {areaq1}");
+            Quadrado q2 = new Quadrado(4);
+            double areaq2 = q2.calcularArea();
+            Console.WriteLine($"Área do quadrado 2: {areaq2}");
+            Console.WriteLine("Imprimindo os dados:");
+            q1.imprimirDados();
+            q2.imprimirDados();
         }
     }
 }
