@@ -61,7 +61,7 @@ class Carro
 
     public override string ToString()
     {
-        return $"{chassi} {consumo} {qtdCombustivel} {quilometragem}";
+        return $"{chassi} {consumo} {qtdCombustivel:F2} {quilometragem}";
     }
 
     public override bool Equals(object? obj)

@@ -12,5 +12,12 @@ class Program
         palhoWeekend.Andar(400);
         palhoWeekend.ImprimirDadosVeiculo();
         Console.WriteLine($"Os carros são iguais? {meuCarroTurbo.Equals(palhoWeekend)}");
+        Console.WriteLine("Teste do ToString:");
+        Console.WriteLine(meuCarroTurbo);
+        Console.WriteLine(palhoWeekend);
+        Console.WriteLine($"Qual o número do chassi do meu carro turbo? {meuCarroTurbo.Chassi}");
+        Console.WriteLine($"Quanto ainda tem de combustível no tanque dele? {meuCarroTurbo.Combustivel}");
+        Console.WriteLine($"Quantos quilômetros o Palho Weekend faz por litro? {palhoWeekend.Consumo}");
+        Console.WriteLine($"Esse palho tem quantos quilômetros rodados? {palhoWeekend.Quilometragem}");
     }
 }
