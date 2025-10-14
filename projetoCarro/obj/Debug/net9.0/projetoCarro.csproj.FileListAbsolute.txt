@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\bin\Debug\net9.0\projetoCarro.exe
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\bin\Debug\net9.0\projetoCarro.deps.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\bin\Debug\net9.0\projetoCarro.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\bin\Debug\net9.0\projetoCarro.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\bin\Debug\net9.0\projetoCarro.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.sourcelink.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\refint\projetoCarro.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\projetoCarro.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\projetoCarro\obj\Debug\net9.0\ref\projetoCarro.dll
