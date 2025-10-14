@@ -12,6 +12,9 @@ class Carro
 
     public Carro(double consumo, string chassi) : this(consumo)
     {
+        if (chassi.Length != 17)
+            throw new ArgumentException("O número do chassi deve conter 17 caracteres");
+    
         this.chassi = chassi;
     }
 
@@ -43,8 +46,8 @@ class Carro
         {
             quilometragem += distancia;
             double combGasto = distancia / consumo;
-            double combTotal = qtdCombustivel - combGasto;
-            qtdCombustivel = combTotal;
+            double combRestante = qtdCombustivel - combGasto;
+            qtdCombustivel = combRestante;
         }
     }
 
@@ -52,7 +55,7 @@ class Carro
     {
         Console.WriteLine($"Número do chassi: {chassi}");
         Console.WriteLine($"Consumo de combustível: {consumo} KM / L");
-        Console.WriteLine($"Quantidade de combustível no tanque: {qtdCombustivel}");
+        Console.WriteLine($"Quantidade de combustível no tanque: {qtdCombustivel:F2} litros");
         Console.WriteLine($"{quilometragem} KM rodados");
     }
 
@@ -63,6 +66,14 @@ class Carro
 
     public override bool Equals(object? obj)
     {
-        return base.Equals(obj);
+        if (obj is Carro outro)
+            return this.chassi == outro.chassi;
+
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return chassi.GetHashCode();
     }
 }
