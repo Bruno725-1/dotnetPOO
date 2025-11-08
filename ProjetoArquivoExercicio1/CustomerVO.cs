@@ -1,5 +1,5 @@
 namespace ProjetoArquivoExercicio1;
-class CustomerVO
+public class CustomerVO
 {
     private int index;
     private string customer_id;

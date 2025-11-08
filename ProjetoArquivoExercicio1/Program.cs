@@ -22,17 +22,16 @@ namespace ProjetoArquivoExercicio1
             for (int i = 0; i < clientes.Quantidade; i++)
                 sw.WriteLine(clientes[i]);
             sw.Close();
-
-            /*string text = "Um exemplo de string para tokenização.";
-            string[] tokens = text.Split(' ');
-            foreach (string token in tokens)
-            {
-                Console.WriteLine(token);
-            }
-
-            Console.WriteLine("\nDigite qualquer tecla para continuar...");
-            Console.ReadKey();*/
-
+            DAOAb daoab = DAOAb.GetInstance("customers-100.csv");
+            CListaVet<string> linhas = daoab.ObterTodosRegistros();
+            Console.WriteLine("Imprimindo as linhas obtidas apartir de daoab:");
+            for (int i = 0; i < linhas.Quantidade; i++)
+                Console.WriteLine(linhas[i]);
+            CustomerDAO customerDAO = CustomerDAO.GetInstance("customers-100.csv");
+            CListaVet<CustomerVO> registros = customerDAO.ObterTodos();
+            Console.WriteLine("Imprimindo a nova lista de registros:");
+            for (int i = 0; i < registros.Quantidade; i++)
+                Console.WriteLine(registros[i]);
         }
     }
 }
