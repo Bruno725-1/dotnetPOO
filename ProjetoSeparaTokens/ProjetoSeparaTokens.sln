@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoSeparaTokens", "ProjetoSeparaTokens.csproj", "{CC39A6E7-E2FE-AB98-D010-7FB8BB1E5060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC39A6E7-E2FE-AB98-D010-7FB8BB1E5060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC39A6E7-E2FE-AB98-D010-7FB8BB1E5060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC39A6E7-E2FE-AB98-D010-7FB8BB1E5060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC39A6E7-E2FE-AB98-D010-7FB8BB1E5060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85711CEB-4822-4426-84B7-17DEDBF52342}
+	EndGlobalSection
+EndGlobal

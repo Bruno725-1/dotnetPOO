@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\bin\Debug\net9.0\ProjetoManipularArquivo.exe
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\bin\Debug\net9.0\ProjetoManipularArquivo.deps.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\bin\Debug\net9.0\ProjetoManipularArquivo.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\bin\Debug\net9.0\ProjetoManipularArquivo.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\bin\Debug\net9.0\ProjetoManipularArquivo.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.sourcelink.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\refint\ProjetoManipularArquivo.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ProjetoManipularArquivo.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoManipularArquivo\obj\Debug\net9.0\ref\ProjetoManipularArquivo.dll

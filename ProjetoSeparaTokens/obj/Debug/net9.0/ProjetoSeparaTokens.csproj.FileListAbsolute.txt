@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\bin\Debug\net9.0\ProjetoSeparaTokens.exe
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\bin\Debug\net9.0\ProjetoSeparaTokens.deps.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\bin\Debug\net9.0\ProjetoSeparaTokens.runtimeconfig.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\bin\Debug\net9.0\ProjetoSeparaTokens.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\bin\Debug\net9.0\ProjetoSeparaTokens.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.AssemblyInfo.cs
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.sourcelink.json
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\refint\ProjetoSeparaTokens.dll
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.pdb
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ProjetoSeparaTokens.genruntimeconfig.cache
+C:\Users\User\Documents\Faculdade\poo\dotnetPOO\ProjetoSeparaTokens\obj\Debug\net9.0\ref\ProjetoSeparaTokens.dll

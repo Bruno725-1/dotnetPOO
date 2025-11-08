@@ -7,22 +7,23 @@ namespace ProjetoArquivoExercicio1
         static void Main(string[] args)
         {
             int contador = 0;
-            StreamReader rd = new StreamReader(@"c:\Users\User\Documents\Faculdade\poo\dotnetPOO\roteiro\ProjetoArquivoExercicio1\customers-100.csv");
+            CListaVet<CustomerVO> clientes = new CListaVet<CustomerVO>();
+            StreamReader rd = new StreamReader(@"customers-100.csv");
+            rd.ReadLine(); // ignorar a primeira linha
 
-            while (!rd.EndOfStream) { 
-                string linha = rd.ReadLine();
-                Console.WriteLine(linha); 
-                contador++;
-
-                if (contador%20==0)
-                {
-                    Console.WriteLine("\nDigite qualquer tecla para continuar...");
-                    Console.ReadKey();
-                }
+            while (!rd.EndOfStream)
+            {
+                // não ouse comer minha identação com angu!
+                string[] dados = rd.ReadLine().Split(',');
+                clientes.Adiciona(new CustomerVO(dados));
             }
             rd.Close();
+            StreamWriter sw = new StreamWriter("saida.txt", false);
+            for (int i = 0; i < clientes.Quantidade; i++)
+                sw.WriteLine(clientes[i]);
+            sw.Close();
 
-            string text = "Um exemplo de string para tokenização.";
+            /*string text = "Um exemplo de string para tokenização.";
             string[] tokens = text.Split(' ');
             foreach (string token in tokens)
             {
@@ -30,7 +31,7 @@ namespace ProjetoArquivoExercicio1
             }
 
             Console.WriteLine("\nDigite qualquer tecla para continuar...");
-            Console.ReadKey();
+            Console.ReadKey();*/
 
         }
     }

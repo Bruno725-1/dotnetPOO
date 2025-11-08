@@ -13,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\Faculdade\\poo\\dotnetPOO\\roteiro\\ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\Faculdade\\poo\\dotnetPOO\\ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1.csproj",
       "projectName": "ProjetoArquivoExercicio1",
-      "projectPath": "C:\\Users\\User\\Documents\\Faculdade\\poo\\dotnetPOO\\roteiro\\ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\Faculdade\\poo\\dotnetPOO\\ProjetoArquivoExercicio1\\ProjetoArquivoExercicio1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\Faculdade\\poo\\dotnetPOO\\roteiro\\ProjetoArquivoExercicio1\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\Faculdade\\poo\\dotnetPOO\\ProjetoArquivoExercicio1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,7 +46,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
